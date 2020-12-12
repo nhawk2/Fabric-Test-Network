@@ -15,7 +15,7 @@ It can build the next infrastructure:
 * An [IGW](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to enable access to or from the Internet for `VPC`
 * A [Route Table](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html) to associate `IGW`, `VPC` and `Subnet`
 * An [EC2 Instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) in the public `Subnet` with SSH access using AMI of Ubuntu 18.04 rel. 20201211.1
-* Install git, docker, docker-compose and Fabric-Test Network
+* Install git, docker, docker-compose and Fabric-Test Network via user_data file src/free-tier/install.sh
 
 ### Pre steps
 
