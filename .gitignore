@@ -1,0 +1,5 @@
+.idea/
+.terraform/
+
+**/backend/config.tf
+**/provision/access/free-tier-ec2-key*
