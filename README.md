@@ -55,6 +55,7 @@ After building the infrastructure you can try to connect to you `EC2 instance` v
 git version 2.17.1
 Docker version 20.10.0, build 7287ab3
 docker-compose version 1.27.4, build 40524192
+
 CONTAINER ID   IMAGE                               COMMAND             CREATED         STATUS                  PORTS                              NAMES
 e7740e6fcb4e   hyperledger/fabric-peer:latest      "peer node start"   5 seconds ago   Up 2 seconds            0.0.0.0:7051->7051/tcp             peer0.org1.example.com
 fef5d5404df5   hyperledger/fabric-peer:latest      "peer node start"   5 seconds ago   Up Less than a second   7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
