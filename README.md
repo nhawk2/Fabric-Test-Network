@@ -1,4 +1,4 @@
-# Based on Terraform AWS Free Tier git project
+# Based on Terraform AWS Free Tier git project.
 
 Added installation of Git, Docker, Docker Compose, to ultimately setup Fabric-Test Network on Docker
 
